@@ -1,0 +1,25 @@
+{
+  "name": "invoke-dlp",
+  "version": "0.1.0",
+  "description": "wrapper around yt-dlp making it easier to call it programmatically",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix-kyun/invoke-dlp.git"
+  },
+  "keywords": [
+    "yt-dlp",
+    "downloader",
+    "video",
+    "audio"
+  ],
+  "author": "Felix Kyun",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/felix-kyun/invoke-dlp/issues"
+  },
+  "homepage": "https://github.com/felix-kyun/invoke-dlp#readme"
+}
