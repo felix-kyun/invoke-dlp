@@ -4,7 +4,7 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
-export class YtDlp {
+export class InvokeDlp {
   _path = null;
   _options = {
     // sets the sorting of format list
