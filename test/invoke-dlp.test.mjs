@@ -43,6 +43,7 @@ describe("InvokeDlp Test", () => {
     const buildCommand = ytDlp
       .url("https://www.youtube.com/watch?v=8zUL1X88rTQ")
       .build().command;
+
     const expectedUrl = "https://www.youtube.com/watch?v=8zUL1X88rTQ";
     strictEqual(buildCommand.includes(expectedUrl), true);
   });

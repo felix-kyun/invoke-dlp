@@ -133,8 +133,11 @@ export class InvokeDlp {
     }
 
     if (this._options.url) {
-      options.push(url);
+      options.push(this._options.url);
     }
+
+    console.log("url", this._options.url);
+    console.log("Building command with options:", options);
 
     this._options.build = options.join(" ");
 
